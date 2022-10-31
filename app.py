@@ -121,5 +121,5 @@ class VideoProcessor:
 		return av.VideoFrame.from_ndarray(frm, format='bgr24')
 
 webrtc_streamer(key="key", video_processor_factory=VideoProcessor,rtc_configuration={
-        "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
+        "iceServers": [{"urls": ["stun:stun.voippro.com:3478"]}]
     },sendback_audio=False, video_receiver_size=1)
