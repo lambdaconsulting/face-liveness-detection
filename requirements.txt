@@ -1,6 +1,6 @@
 cmake
 opencv-python
-tensorflow==1.15.0
+tensorflow-cpu
 streamlit-webrtc
 imutils
 pickle-mixin
