@@ -1,5 +1,6 @@
 cmake
 opencv-python
+tensorflow-cpu
 streamlit-webrtc
 imutils
 pickle-mixin
