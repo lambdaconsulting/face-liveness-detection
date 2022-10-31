@@ -1,6 +1,7 @@
 cmake
 opencv-python
 streamlit-webrtc
+tensorflow
 imutils
 pickle-mixin
 scikit-learn
